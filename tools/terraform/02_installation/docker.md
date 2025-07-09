@@ -39,21 +39,21 @@ cd ~/projects/my-terraform
 
 ```bash
 docker run --rm -v $(pwd):/workspace -w /workspace \
-  hashicorp/terraform:1.12.2 init
+hashicorp/terraform:1.12.2 init
 ```
 
 ### Terraform plan:
 
 ```bash
 docker run --rm -v $(pwd):/workspace -w /workspace \
-  hashicorp/terraform:1.12.2 plan
+hashicorp/terraform:1.12.2 plan
 ```
 
 ### Terraform apply:
 
 ```bash
 docker run --rm -v $(pwd):/workspace -w /workspace \
-  hashicorp/terraform:1.12.2 apply -auto-approve
+hashicorp/terraform:1.12.2 apply -auto-approve
 ```
 
 ---
